@@ -2,12 +2,18 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
 }
 
 .botao-primario--mobile {
-    padding: 12px 16px;
+    padding: 12px 14px;
     background: var(--azul-100);
+    color: var(--branco);
+    width: 119px;
+    box-sizing: border-box;
 }
 
 .botao-primario--mobile__hover {
@@ -58,15 +64,3 @@
     box-sizing: border-box;
 }
 
-#botao--cabecalho {
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 16px;
-
-    color: var(--azul-100);
-
-    width: 133px;
-    height: 40px;
-    left: 151.5px;
-    top: 16px;
-}

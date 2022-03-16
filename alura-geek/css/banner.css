@@ -1,0 +1,52 @@
+.banner {
+    background-color: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(.jpg);
+    background-image: url('../assets/img/banner-home.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 192px;
+    box-sizing: border-box;
+}
+
+.banner--titulo {
+    color: var(--branco);
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 58px;
+}
+
+.banner--sub-titulo {
+    color: var(--branco);
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .container {
+        padding: 32px;
+    }
+    .banner {
+        height: 352px;
+        background-size: auto;
+    }
+
+    .banner--titulo {
+        font-size: 52px;
+        margin-top: 82px;
+    }
+
+    .banner--sub-titulo {
+        font-size: 22px;
+        margin-bottom: 16px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .container {
+        padding-left:  152px;
+        padding-right: 152px;
+}

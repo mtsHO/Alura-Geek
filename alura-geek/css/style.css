@@ -4,6 +4,7 @@
     --azul-20: #D4E4FA;
     --preto-100: #464646;
     --preto-5: #F5F5F5;
+    --branco: #FFFFFF;
 
     font-family: 'Raleway', sans-serif;
 }
@@ -18,4 +19,16 @@
         "rodape";
     grid-template-columns: auto;
     grid-template-rows: 72px;
+}
+
+.conteudo {
+    grid-area: conteudo;
+}
+
+.container {
+    padding: 16px;
+}
+
+.rodape {
+    grid-area: rodape;
 }
