@@ -6,7 +6,14 @@
     font-family: 'Raleway', sans-serif;
 }
 
-body {
+.corpo {
     font-family: 'Raleway', sans-serif;
-}
 
+    display: grid;
+    grid-template-areas:
+        "cabecalho"
+        "conteudo"
+        "rodape";
+    grid-template-columns: auto;
+    grid-template-rows: 72px;
+}

@@ -1,0 +1,20 @@
+.cabecalho {
+    align-items: center;
+    display: flex;
+    grid-area: cabecalho;
+    padding: 0;
+    justify-content:space-between;
+}
+
+.cabecalho--logo {
+    display: flex;
+    width: 100px;
+    height: 28px;
+
+    margin: 22px 16px;
+}
+
+.cabecalho--pesquisar {
+    display: flex;
+    margin-right: 19px;
+}

@@ -57,3 +57,17 @@
     border: 1px solid var(--azul-100);
     box-sizing: border-box;
 }
+
+#botao--cabecalho {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: var(--azul-100);
+
+    position: static;
+    width: 133px;
+    height: 40px;
+    left: 151.5px;
+    top: 16px;
+}
