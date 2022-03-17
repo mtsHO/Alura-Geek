@@ -32,3 +32,18 @@
 .rodape {
     grid-area: rodape;
 }
+
+
+@media scren and (min-width:768px) {
+    .container {
+        padding: 32px;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left:  152px;
+        padding-right: 152px;
+    }
+}
