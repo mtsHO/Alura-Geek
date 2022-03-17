@@ -1,77 +1,75 @@
 @media screen and (min-width: 0px) {
     .produtos--cabecalho {
-        display: inline-flex;
+        display: flex;
+        justify-content: space-between;
     }
 
     .produtos--cabecalho--titulo {
         font-weight: 700;
         font-size: 22px;
-        display: inline-block;
         color: var(--preto-100);
         margin-bottom: 16px;
     }
 
-    .produtos--cabecalho--link {
-      display: inline-block;
-      margin: 0;
+    .produtos--cabecalho--link{
+        font-weight: 700;
+        font-size: 14px;
+        color: var(--azul-100);
+        margin-top: 0;
     }
 
-    .produtos--cabecalho--link--img {
-       display: inline-block;
+    .produto--cabecalho--link--img {
+        width: 10.7px;
     }
 
-    .produtos--star-wars {
+    .produtos {
         display: grid;
         grid-gap: .2rem;
         grid-template-columns: 50% 50%;
         grid-template-rows: 50% 50%;
     }
 
-    .produtos--star-wars--cartao {
+    .produtos--cartao {
         display: grid;
         grid-template-areas: 
             "cartao-imagem"
             "cartao-corpo";
         grid-template-columns: auto;
-        margin-right: 1rem;
+        margin-right: .2rem;
     }
 
-    .produdos--star-wars--cartao:nth-child(2) {
+    .produdos--cartao:nth-child(2) {
         margin-right: 0;
     }
     
-    .produto--star-wars--cartao--filho5 { 
+    .produtos--cartao__ativo-desktop { 
         display: none;
     }
 
-    .produto--star-wars--cartao--filho6 { 
-        display: none;
-    }
-
-    .produtos--star-wars--cartao--img {
+    .produtos--cartao--img {
         grid-area: cartao-imagem;
         height: 174px;
         width: 156px;
     }
 
-    .produdos--star-wars--corpo {
+    .produdos--corpo {
         display: grid;
         grid-area: cartao-corpo;
     }
 
-    .produtos--star-wars--cartao--titulo {
+    .produtos--cartao--titulo {
         font-weight: 500;
         font-size: 14px;
         margin-top: 8px;
     }
 
-    .produtos--star-wars--cartao--valor {
+    .produtos--cartao--valor {
         font-weight: 700;
         font-size: 16px;
         margin-top: 8px;
     }
 
-    .produtos--star-wars--cartao--link {
+    .produtos--cartao--link {
         font-weight: 700;
         font-size: 16px;
         color: var(--azul-100);
@@ -80,26 +78,22 @@
 }
 
 @media screen and (min-width: 768px) {
-    .produtos--star-wars {
+    .produtos {
         grid-template-columns: 25% 25% 25% 25%;
         grid-template-rows: 100%;
     }
 
-    .produtos--star-wars--cartao--img {
+    .produtos--cartao--img {
         height: 164px;
         width: 166px;
 }
 
 @media screen and (min-width: 1024px) {
-    .produtos--star-wars {
+    .produtos {
         grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
     }
     
-    .produto--star-wars--cartao--filho5 {
-        display: grid;
-    }
-
-    .produto--star-wars--cartao--filho6 {
+    .produtos--cartao__ativo-desktop {
         display: grid;
     }
 }
