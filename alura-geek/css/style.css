@@ -2,6 +2,7 @@
     --azul-100: #2A7AE4;
     --azul-80: #5595E9;
     --azul-20: #D4E4FA;
+    --azul-10: #EAF2FD;
     --preto-100: #464646;
     --preto-5: #F5F5F5;
     --branco: #FFFFFF;
@@ -29,11 +30,6 @@
     padding: 16px;
 }
 
-.rodape {
-    grid-area: rodape;
-}
-
-
 @media scren and (min-width:768px) {
     .container {
         padding: 32px;
@@ -47,3 +43,4 @@
         padding-right: 152px;
     }
 }
+

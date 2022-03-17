@@ -1,0 +1,64 @@
+.rodape {
+    grid-area: rodape;
+    display: grid;
+    grid-template-areas:
+        "rodape--principal"
+        "rodape--final";
+    grid-template-rows: auto;
+}
+
+.rodape--principal {
+    grid-area: rodape--principal;
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+    grid-template-rows: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+    background-color: var(--azul-10);
+}
+
+.rodape--principal--logo {
+    width: 176px;
+}
+
+.rodape--principal--fale-conosco {
+    display: grid;
+}
+
+.rodape--principal--fale-conosco--titulo {
+    padding-top: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--preto-100);
+}
+
+.rodape--principal--fale-conosco--input-nome{
+    margin-top: 8px;
+    height: 56px;
+    margin-bottom: 16px;
+    border: none;
+}
+
+.rodape--principal--fale-conosco--input-mensagem {
+    height: 82px;
+    margin-bottom: 16px;
+    border: none;
+}
+
+.rodape--botao {
+    width: 165px;
+    box-sizing: ;
+    background-color: var(--azul-100);
+    color: var(--branco);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.rodape-final {
+    background-color: var(--branco);
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    height: 102px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    box-sizing: border-box;
+}
