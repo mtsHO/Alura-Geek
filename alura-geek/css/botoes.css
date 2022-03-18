@@ -6,6 +6,10 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 16px;
+
+    padding: 16px;
+
+    border: none;
 }
 
 .botao-primario--mobile {
@@ -64,3 +68,15 @@
     box-sizing: border-box;
 }
 
+.botao--produtos {
+    background-color: var(--azul-100);
+    color: var(--branco);
+
+    font-weight: 400;
+    
+    width: 186px;
+    height: 51px;
+
+    margin-bottom: 16px;
+    margin-right: -10px;
+}
