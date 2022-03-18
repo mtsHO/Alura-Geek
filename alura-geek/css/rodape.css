@@ -1,6 +1,5 @@
 @media screen and (min-width: 0px){
     .rodape {
-        grid-area: rodape;
         display: grid;
         grid-template-areas:
            "rodape--principal"
