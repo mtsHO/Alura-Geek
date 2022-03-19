@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alura Geek | Login </title>
+    <title>Alura Geek | Adicionar produtos</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/botoes.css">
     <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/produto.css">
+    <link rel="stylesheet" href="css/produtos.css">
     <link rel="stylesheet" href="css/rodape.css">
-    <link rel="stylesheet" href="css/login.css">
-   
+    <link rel="stylesheet" href="css/adicionar-produto.css">
 
 </head>
-
 <body class="corpo">
     <header class="cabecalho">
         <a href="index.html"><img src="assets/img/logo/Logo.png" alt="Alura Geek" class="cabecalho--logo"></a>
@@ -24,19 +24,28 @@
                 <input type="text" placeholder="O que deseja encontrar?" class="cabecalho--pesquisar--input"> 
                 <nav><img src="assets/img/icone/icone--lupa.png" alt="Ícone pesquisar" class="cabecalho--pesquisar--icone"></nav>
             </div>
-            <a href="login.html"><button class="botao botao-secundario--mobile cabecalho--botao">Login</button></a>
+            <a href="#"><button class="botao botao--cabecalho--menu-administrador">Menu administrador</button></a>
             <nav><img src="assets/img/icone/icone--lupa--mobile.png" alt="Ícone pesquisar" class="cabecalho--pesquisar--icone__mobile"></nav>
     </header>
 
     <main class="conteudo">
-       <section class="login">
-           <h2 class="login--titulo">Iniciar sessão</h2>
-           <input type="text" placeholder="Escreva seu email" class="login--input--email">
-           <input type="text" placeholder="Escreva sua senha" class="login--input--senha">
-           <button class="botao botao--login">Entrar</button>
-       </section>
-
+        <section class="adicionar-produto container">
+            <h2 class="adicionar-produto--titulo">Adicionar novo produto</h2>
+            <div class="adicionar-produto--secao-alternativa">
+                <input type="text" placeholder="Adicionar uma imagem para o produto" class="adicionar-produto--input--imagem">
+                <div class="adicionar-produto--procurar-produto">
+                    <p class="adicionar-produto--texto">Ou</p>
+                    <button class="botao botao--procurar-produto--tablet">Procure no seu tablet</button>
+                </div>
+            </div>
+            <input type="text" placeholder="Nome do produto" class="adicionar-produto--input--nome">
+            <input type="text" placeholder="Preço do produto" class="adicionar-produto--input--preco">
+            <input type="text" placeholder="Descrição do produto" class="adicionar-produto--input--descricao">
+            <button class="botao botao--adicionar-produto">Adicionar produto</button>
+        </section>
+     
     </main>
+
 
     <footer class="rodape">
         <div class="rodape--principal container">
@@ -73,7 +82,6 @@
             Desenvolvido por Mateus Henrique de Oliveira <br>
             2022
         </div>
-    </footer>    
-
+    </footer>
 </body>
 </html>

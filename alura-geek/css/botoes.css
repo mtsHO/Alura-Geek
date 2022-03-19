@@ -81,15 +81,3 @@
     margin-right: -10px;
 }
 
-.botao--login {
-    background-color: var(--azul-100);
-    color: var(--branco);
-
-    font-size: 18px;
-    line-height: 21px;
-
-    width: 423px;
-    height: 62px;
-
-    margin-top: 25px;
-}
