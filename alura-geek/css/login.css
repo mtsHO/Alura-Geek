@@ -1,0 +1,117 @@
+@media screen and (min-width: 0px) {
+    .conteudo {
+        background-color: var(--preto-5);
+        text-align: center;
+    }
+
+    .login{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 97px;
+        margin-bottom: 97px;
+    }
+
+    .login h2.login--titulo{
+        margin-bottom: 16px;
+        font-weight: 700;
+        font-size: 16px;
+        color: var(--preto-100);
+    }
+
+    main section input {
+        width: 275px;
+        height: 41px;
+        padding-left: 18px;
+        border: none;
+    }
+
+    main section input.login--input--email{
+        margin-bottom: 16px;
+    }
+
+    .botao--login {
+        background-color: var(--azul-100);
+        color: var(--branco);
+
+        font-size: 14px;
+        line-height: 16px;
+
+        width: 109px;
+        height: 40px;
+
+        margin-top: 16px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .login{
+        margin-top: 45px;
+        margin-bottom: 61px;
+    }
+
+    .login h2.login--titulo{
+        margin-bottom: 16px;
+        font-size: 16px;
+    }
+
+    main section input {
+        width: 275px;
+        height: 41px;
+        padding-left: 12px;
+    }
+
+    main section input.login--input--email{
+        margin-bottom: 16px;
+    }
+
+    .botao--login {
+        font-size: 14px;
+        line-height: 16px;
+    
+        width: 109px;
+        height: 40px;
+    
+        padding-top: 12px;
+        padding-bottom: 12px;
+        margin-top: 16px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .login{
+        margin-top: 91px;
+        margin-bottom: 91px;
+    }
+    
+    .login h2.login--titulo{
+        margin-bottom: 25px;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    
+    main section input {
+        width: 423px;
+        height: 64px;
+        padding-left: 18px;
+    }
+    
+    main section input.login--input--email{
+        margin-bottom: 24.65px;
+    }
+    
+    .botao--login {
+        font-size: 18px;
+        line-height: 21px;
+    
+        width: 423px;
+        height: 62px;
+    
+        margin-top: 25px;
+        padding-top: 20.5px;
+        padding-bottom: 20.5px;
+    }
+    
+}
