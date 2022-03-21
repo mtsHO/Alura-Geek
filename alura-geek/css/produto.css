@@ -8,80 +8,91 @@
         grid-template-columns: 100vw;
         grid-template-rows: auto auto auto;
     }
+
+    .produto__geral__foto {
+        grid-area: produto-imagem;
+    }
         
-    img.produto--geral--imagem{
+    img.produto__geral__imagem{
         width: 100%;
         height: 192px;
     }
 
-    .produto--principal--conteudo {
+    .produto__principal__conteudo {
+        grid-area: produto-corpo;
         margin: 16px;
     }
 
-    h2.produto--principal--titulo {
+    h2.produto__principal__titulo {
         font-weight: 500;
         font-size: 22px;
         color: var(--preto-100);
         padding-bottom: 8px;
     }
 
-    h3.produto--principal--valor {
+    h3.produto__principal__valor {
         font-weight: 700px;
         font-size: 16px;
         color: var(--preto-100);
     }
 
-    p.produto--principal--texto {
+    p.produto__principal__texto {
         font-weight: 400;
         font-size: 14px;
         color: var(--preto-100);
         margin-top: 8px;
     }
+
+    .produtos__geral{
+        grid-area: outros-produtos;
+    }
 }
 
 @media screen and (min-width: 768px) {
-    .conteudo {
-        grid-template-columns: 33.33% 66.66%;
-        margin: 32px;
-    }
-
-    section.produtos--geral.container {
+    .cartao__produto__completo {
         display: grid;
-        grid-template-columns: 1 / 3;
+        grid-template-columns: 33.33% 66.66%;
+        margin: 16px;
+    }
+    
+    .produto__geral__foto {
+        grid-column: 1 / 2;
+        grid-row: 1 / 1;
+    }
+    
+    .produto__principal__conteudo {
+        grid-column: 2/ 3;
+        grid-row: 1 / 1;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .conteudo {
+    .cartao__produto__completo {
         grid-template-columns: 50% 45%;
         margin: 32px 152px;
     }
 
-    img.produto--geral--imagem{
+    img.produto__geral__imagem{
         width: 38vw;
         height: 400px;
     }
 
-    .produto--principal--conteudo {
+    .produto__principal__conteudo {
         padding-top: 15%;
         margin-left: 50px;
     }
 
-    h2.produto--principal--titulo {
+    h2.produto__principal__titulo {
         font-size: 52px;
         padding-bottom: 8px;
     }
 
-    h3.produto--principal--valor {
+    h3.produto__principal__valor {
         font-size: 20px;
     }
 
-    p.produto--principal--texto {
+    p.produto__principal__texto {
         font-size: 18px;
-    }
-
-    section.produtos--geral.container {
-        padding-left: 0;
     }
     
 }

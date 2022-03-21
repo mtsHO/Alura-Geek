@@ -8,14 +8,14 @@
     box-sizing: border-box;
 }
 
-.banner--titulo {
+.banner__titulo {
     color: var(--branco);
     font-size: 22px;
     font-weight: 700;
     padding-top: 58px;
 }
 
-.banner--sub-titulo {
+.banner__sub-titulo {
     color: var(--branco);
     font-size: 14px;
     font-weight: 600;
@@ -30,12 +30,12 @@
         background-size: auto;
     }
 
-    .banner--titulo {
+    .banner__titulo {
         font-size: 52px;
         margin-top: 82px;
     }
 
-    .banner--sub-titulo {
+    .banner__sub-titulo {
         font-size: 22px;
         margin-bottom: 16px;
     }

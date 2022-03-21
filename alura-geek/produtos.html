@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/botoes.css">
+    <link rel="stylesheet" href="css/componentes/botoes.css">
     <link rel="stylesheet" href="css/cabecalho.css">
     <link rel="stylesheet" href="css/produto.css">
     <link rel="stylesheet" href="css/produtos.css">
@@ -18,214 +18,220 @@
 </head>
 <body class="corpo">
     <header class="cabecalho">
-        <a href="index.html"><img src="assets/img/logo/Logo.png" alt="Alura Geek" class="cabecalho--logo"></a>
-            <div class="cabecalho--pesquisar">
-                <input type="text" placeholder="O que deseja encontrar?" class="cabecalho--pesquisar--input"> 
-                <nav><img src="assets/img/icone/icone--lupa.png" alt="Ícone pesquisar" class="cabecalho--pesquisar--icone"></nav>
+        <a href="index.html"><img src="assets/img/logo/Logo.png" alt="Alura Geek" class="cabecalho__logo"></a>
+            <div class="cabecalho__pesquisar">
+                <input type="text" placeholder="O que deseja encontrar?" class="cabecalho__pesquisar__input"> 
+                <nav><img src="assets/img/icone/icone--lupa.png" alt="Ícone pesquisar" class="cabecalho__pesquisar__icone"></nav>
             </div>
-            <a href="login.html"><button class="botao botao-secundario--mobile cabecalho--botao">Login</button></a>
-            <nav><img src="assets/img/icone/icone--lupa--mobile.png" alt="Ícone pesquisar" class="cabecalho--pesquisar--icone__mobile"></nav>
+            <a href="login.html"><button class="botao botao__borda-azul cabecalho___botao">Login</button></a>
+            <nav><img src="assets/img/icone/icone--lupa--mobile.png" alt="Ícone pesquisar" class="cabecalho__pesquisar__icone__mobile"></nav>
     </header>
 
-    <main class="conteudo conteudo--pag--produtos">
-        <section class="produtos--geral container">
-            <div class="produtos--cabecalho">
-                <h3 class="produtos--cabecalho--titulo">Todos os produtos</h3>
+    <main class="conteudo conteudo___pag__produtos">
+        <section class="produtos__geral container">
+            <div class="produtos__cabecalho">
+                <h3 class="produtos__cabecalho__titulo">Todos os produtos</h3>
                 <a href="adicionar-produto.html">
-                    <button class="botao botao--produtos">Adicionar produto</button>
+                    <button class="botao corpo___produtos__botao-adicionar-produtos">Adicionar produto</button>
                 </a>
             </div>
+                
             <div class="produtos">
-                <div class="produtos--cartao">
-                    <img src="assets/img/star-wars/star-wars--img1.png" alt="" class="produtos--cartao--img">
-                    <div class="produdos--corpo">
-                        <h4 class="produtos--cartao--titulo">Produto XYZ</h4>
-                        <p class="produtos--cartao--valor">R$ 60,00</p>
-                        <p class="produtos--cartao--identificacao">#1111111</p>
+                <div class="produtos__cartao">
+                    <img src="assets/img/star-wars/star-wars--img1.png" alt="" class="produtos__cartao__img">
+                    <div class="produtos__corpo">
+                        <h4 class="produtos__cartao__titulo">Produto XYZ</h4>
+                        <p class="produtos__cartao__valor">R$ 60,00</p>
+                        <p class="produtos__cartao__identificador">#1111111</p>
                     </div>
                 </div>
-                <div class="produtos--cartao">
-                    <img src="assets/img/star-wars/star-wars--img2.png" alt="" class="produtos--cartao--img">
-                    <div class="produdos--corpo">
-                        <h4 class="produtos--cartao--titulo">Produto XYZ</h4>
-                        <p class="produtos--cartao--valor">R$ 60,00</p>
-                        <p class="produtos--cartao--identificacao">#1111111</p>
+                <div class="produtos__cartao">
+                    <img src="assets/img/star-wars/star-wars--img2.png" alt="" class="produtos__cartao__img">
+                    <div class="produtos__corpo">
+                        <h4 class="produtos__cartao__titulo">Produto XYZ</h4>
+                        <p class="produtos__cartao__valor">R$ 60,00</p>
+                        <p class="produtos__cartao__identificador">#1111111</p>
                     </div>
                 </div>
-                <div class="produtos--cartao">
-                    <img src="assets/img/star-wars/star-wars--img3.png" alt="" class="produtos--cartao--img">
-                    <div class="produdos--corpo">
-                        <h4 class="produtos--cartao--titulo">Produto XYZ</h4>
-                        <p class="produtos--cartao--valor">R$ 60,00</p>
-                        <p class="produtos--cartao--identificacao">#1111111</p>
+                <div class="produtos__cartao">
+                    <img src="assets/img/star-wars/star-wars--img3.png" alt="" class="produtos__cartao__img">
+                    <div class="produtos__corpo">
+                        <h4 class="produtos__cartao__titulo">Produto XYZ</h4>
+                        <p class="produtos__cartao__valor">R$ 60,00</p>
+                        <p class="produtos__cartao__identificador">#1111111</p>
                     </div>
                 </div>
-                <div class="produtos--cartao">
-                    <img src="assets/img/star-wars/star-wars--img4.png" alt="" class="produtos--cartao--img">
-                    <div class="produdos--corpo">
-                        <h4 class="produtos--cartao--titulo">Produto XYZ</h4>
-                        <p class="produtos--cartao--valor">R$ 60,00</p>
-                        <p class="produtos--cartao--identificacao">#1111111</p>
+                <div class="produtos__cartao">
+                    <img src="assets/img/star-wars/star-wars--img4.png" alt="" class="produtos__cartao__img">
+                    <div class="produtos__corpo">
+                        <h4 class="produtos__cartao__titulo">Produto XYZ</h4>
+                        <p class="produtos__cartao__valor">R$ 60,00</p>
+                        <p class="produtos__cartao__identificador">#1111111</p>
                     </div>
                 </div>
-                <div class="produtos--cartao produtos--cartao__ativo-desktop">
-                    <img src="assets/img/star-wars/star-wars--img5.png" alt="" class="produtos--cartao--img">
-                    <div class="produdos--corpo">
-                        <h4 class="produtos--cartao--titulo">Produto XYZ</h4>
-                        <p class="produtos--cartao--valor">R$ 60,00</p>
-                        <p class="produtos--cartao--identificacao">#1111111</p>
+                <div class="produtos__cartao produtos__cartao__ativo-desktop">
+                    <img src="assets/img/star-wars/star-wars--img5.png" alt="" class="produtos__cartao__img">
+                    <div class="produtos__corpo">
+                        <h4 class="produtos__cartao__titulo">Produto XYZ</h4>
+                        <p class="produtos__cartao__valor">R$ 60,00</p>
+                        <p class="produtos__cartao__identificador">#1111111</p>
                     </div>
                 </div>
-                <div class="produtos--cartao produtos--cartao__ativo-desktop">
-                    <img src="assets/img/star-wars/star-wars--img6.png" alt="" class="produtos--cartao--img">
-                    <div class="produdos--corpo">
-                        <h4 class="produtos--cartao--titulo">Produto XYZ</h4>
-                        <p class="produtos--cartao--valor">R$ 60,00</p>
-                        <p class="produtos--cartao--identificacao">#1111111</p>
+                <div class="produtos__cartao produtos__cartao__ativo-desktop">
+                    <img src="assets/img/star-wars/star-wars--img6.png" alt="" class="produtos__cartao__img">
+                    <div class="produtos__corpo">
+                        <h4 class="produtos__cartao__titulo">Produto XYZ</h4>
+                        <p class="produtos__cartao__valor">R$ 60,00</p>
+                        <p class="produtos__cartao__identificador">#1111111</p>
+                    </div>
+                </div>
+            </div>
+            <div class="produtos">
+                <div class="produtos__cartao">
+                    <img src="assets/img/consoles/consoles--img1.png" alt="" class="produtos__cartao__img">
+                    <div class="produtos__corpo">
+                        <h4 class="produtos__cartao__titulo">Console XYZ</h4>
+                        <p class="produtos__cartao__valor">R$ 60,00</p>
+                        <p class="produtos__cartao__identificador">#1111111</p>
+                    </div>
+                </div>
+                <div class="produtos__cartao">
+                    <img src="assets/img/consoles/consoles--img2.png" alt="" class="produtos__cartao__img">
+                    <div class="produtos__corpo">
+                        <h4 class="produtos__cartao__titulo">Console XYZ</h4>
+                        <p class="produtos__cartao__valor">R$ 60,00</p>
+                        <p class="produtos__cartao__identificador">#1111111</p>
+                    </div>
+                </div>
+                <div class="produtos__cartao">
+                    <img src="assets/img/consoles/consoles--img3.png" alt="" class="produtos__cartao__img">
+                    <div class="produtos__corpo">
+                        <h4 class="produtos__cartao__titulo">Console XYZ</h4>
+                        <p class="produtos__cartao__valor">R$ 60,00</p>
+                        <p class="produtos__cartao__identificador">#1111111</p>
+                    </div>
+                </div>
+                <div class="produtos__cartao">
+                    <img src="assets/img/consoles/consoles--img4.png" alt="" class="produtos__cartao__img">
+                    <div class="produtos__corpo">
+                        <h4 class="produtos__cartao__titulo">Console XYZ</h4>
+                        <p class="produtos__cartao__valor">R$ 60,00</p>
+                        <p class="produtos__cartao__identificador">#1111111</p>
+                    </div>
+                </div>
+                <div class="produtos__cartao produtos__cartao__ativo-desktop">
+                    <img src="assets/img/consoles/consoles--img5.png" alt="" class="produtos__cartao__img">
+                    <div class="produtos__corpo">
+                        <h4 class="produtos__cartao__titulo">Console XYZ</h4>
+                        <p class="produtos__cartao__valor">R$ 60,00</p>
+                        <p class="produtos__cartao__identificador">#1111111</p>
+                    </div>
+                </div>
+                <div class="produtos__cartao produtos__cartao__ativo-desktop">
+                    <img src="assets/img/consoles/consoles--img6.png" alt="" class="produtos__cartao__img">
+                    <div class="produtos__corpo">
+                        <h4 class="produtos__cartao__titulo">Console XYZ</h4>
+                        <p class="produtos__cartao__valor">R$ 60,00</p>
+                        <p class="produtos__cartao__identificador">#1111111</p>
+                    </div>
+                </div>
+            </div>
+            <div class="produtos">
+                <div class="produtos__cartao">
+                    <img src="assets/img/diversos/diversos--img1.png" alt="" class="produtos__cartao__img">
+                    <div class="produtos__corpo">
+                        <h4 class="produtos__cartao__titulo">Camisa Atari</h4>
+                        <p class="produtos__cartao__valor">R$ 60,00</p>
+                        <p class="produtos__cartao__identificador">#1111111</p>
+                    </div>
+                </div>
+                <div class="produtos__cartao">
+                    <img src="assets/img/diversos/diversos--img2.png" alt="" class="produtos__cartao__img">
+                    <div class="produtos__corpo">
+                        <h4 class="produtos__cartao__titulo">Camisa SNES</h4>
+                        <p class="produtos__cartao__valor">R$ 60,00</p>
+                        <p class="produtos__cartao__identificador">#1111111</p>
+                    </div>
+                </div>
+                <div class="produtos__cartao">
+                    <img src="assets/img/diversos/diversos--img3.png" alt="" class="produtos__cartao__img">
+                    <div class="produtos__corpo">
+                        <h4 class="produtos__cartao__titulo">Console e console XYZ</h4>
+                        <p class="produtos__cartao__valor">R$ 60,00</p>
+                        <p class="produtos__cartao__identificador">#1111111</p>
+                    </div>
+                </div>
+                <div class="produtos__cartao">
+                    <img src="assets/img/diversos/diversos--img4.png" alt="" class="produtos__cartao__img">
+                    <div class="produtos__corpo">
+                        <h4 class="produtos__cartao__titulo">Console e console XYZ</h4>
+                        <p class="produtos__cartao__valor">R$ 60,00</p>
+                        <p class="produtos__cartao__identificador">#1111111</p>
+                    </div>
+                </div>
+                <div class="produtos__cartao produtos__cartao__ativo-desktop">
+                    <img src="assets/img/diversos/diversos--img5.png" alt="" class="produtos__cartao__img">
+                    <div class="produtos__corpo">
+                        <h4 class="produtos__cartao__titulo">Console e console XYZ</h4>
+                        <p class="produtos__cartao__valor">R$ 60,00</p>
+                        <p class="produtos__cartao__identificador">#1111111</p>
+                    </div>
+                </div>
+                <div class="produtos__cartao produtos__cartao__ativo-desktop">
+                    <img src="assets/img/diversos/diversos--img6.png" alt="" class="produtos__cartao__img">
+                    <div class="produtos__corpo">
+                        <h4 class="produtos__cartao__titulo">Console e console XYZ</h4>
+                        <p class="produtos__cartao__valor">R$ 60,00</p>
+                        <p class="produtos__cartao__identificador">#1111111</p>
                     </div>
                 </div>
             </div>
 
-            <div class="produtos">
-                <div class="produtos--cartao">
-                    <img src="assets/img/consoles/consoles--img1.png" alt="" class="produtos--cartao--img">
-                    <div class="produdos--corpo">
-                        <h4 class="produtos--cartao--titulo">Console XYZ</h4>
-                        <p class="produtos--cartao--valor">R$ 60,00</p>
-                        <p class="produtos--cartao--identificacao">#1111111</p>
-                    </div>
-                </div>
-                <div class="produtos--cartao">
-                    <img src="assets/img/consoles/consoles--img2.png" alt="" class="produtos--cartao--img">
-                    <div class="produdos--corpo">
-                        <h4 class="produtos--cartao--titulo">Console XYZ</h4>
-                        <p class="produtos--cartao--valor">R$ 60,00</p>
-                        <p class="produtos--cartao--identificacao">#1111111</p>
-                    </div>
-                </div>
-                <div class="produtos--cartao">
-                    <img src="assets/img/consoles/consoles--img3.png" alt="" class="produtos--cartao--img">
-                    <div class="produdos--corpo">
-                        <h4 class="produtos--cartao--titulo">Console XYZ</h4>
-                        <p class="produtos--cartao--valor">R$ 60,00</p>
-                        <p class="produtos--cartao--identificacao">#1111111</p>
-                    </div>
-                </div>
-                <div class="produtos--cartao">
-                    <img src="assets/img/consoles/consoles--img4.png" alt="" class="produtos--cartao--img">
-                    <div class="produdos--corpo">
-                        <h4 class="produtos--cartao--titulo">Console XYZ</h4>
-                        <p class="produtos--cartao--valor">R$ 60,00</p>
-                        <p class="produtos--cartao--identificacao">#1111111</p>
-                    </div>
-                </div>
-                <div class="produtos--cartao produtos--cartao__ativo-desktop">
-                    <img src="assets/img/consoles/consoles--img5.png" alt="" class="produtos--cartao--img">
-                    <div class="produdos--corpo">
-                        <h4 class="produtos--cartao--titulo">Console XYZ</h4>
-                        <p class="produtos--cartao--valor">R$ 60,00</p>
-                        <p class="produtos--cartao--identificacao">#1111111</p>
-                    </div>
-                </div>
-                <div class="produtos--cartao produtos--cartao__ativo-desktop">
-                    <img src="assets/img/consoles/consoles--img6.png" alt="" class="produtos--cartao--img">
-                    <div class="produdos--corpo">
-                        <h4 class="produtos--cartao--titulo">Console XYZ</h4>
-                        <p class="produtos--cartao--valor">R$ 60,00</p>
-                        <p class="produtos--cartao--identificacao">#1111111</p>
-                    </div>
-                </div>
-            </div>
 
-            <div class="produtos">
-                <div class="produtos--cartao">
-                    <img src="assets/img/diversos/diversos--img1.png" alt="" class="produtos--cartao--img">
-                    <div class="produdos--corpo">
-                        <h4 class="produtos--cartao--titulo">Camisa Atari</h4>
-                        <p class="produtos--cartao--valor">R$ 60,00</p>
-                        <p class="produtos--cartao--identificacao">#1111111</p>
-                    </div>
-                </div>
-                <div class="produtos--cartao">
-                    <img src="assets/img/diversos/diversos--img2.png" alt="" class="produtos--cartao--img">
-                    <div class="produdos--corpo">
-                        <h4 class="produtos--cartao--titulo">Camisa SNES</h4>
-                        <p class="produtos--cartao--valor">R$ 60,00</p>
-                        <p class="produtos--cartao--identificacao">#1111111</p>
-                    </div>
-                </div>
-                <div class="produtos--cartao">
-                    <img src="assets/img/diversos/diversos--img3.png" alt="" class="produtos--cartao--img">
-                    <div class="produdos--corpo">
-                        <h4 class="produtos--cartao--titulo">Console e console XYZ</h4>
-                        <p class="produtos--cartao--valor">R$ 60,00</p>
-                        <p class="produtos--cartao--identificacao">#1111111</p>
-                    </div>
-                </div>
-                <div class="produtos--cartao">
-                    <img src="assets/img/diversos/diversos--img4.png" alt="" class="produtos--cartao--img">
-                    <div class="produdos--corpo">
-                        <h4 class="produtos--cartao--titulo">Console e console XYZ</h4>
-                        <p class="produtos--cartao--valor">R$ 60,00</p>
-                        <p class="produtos--cartao--identificacao">#1111111</p>
-                    </div>
-                </div>
-                <div class="produtos--cartao produtos--cartao__ativo-desktop">
-                    <img src="assets/img/diversos/diversos--img5.png" alt="" class="produtos--cartao--img">
-                    <div class="produdos--corpo">
-                        <h4 class="produtos--cartao--titulo">Console e console XYZ</h4>
-                        <p class="produtos--cartao--valor">R$ 60,00</p>
-                        <p class="produtos--cartao--identificacao">#1111111</p>
-                    </div>
-                </div>
-                <div class="produtos--cartao produtos--cartao__ativo-desktop">
-                    <img src="assets/img/diversos/diversos--img6.png" alt="" class="produtos--cartao--img">
-                    <div class="produdos--corpo">
-                        <h4 class="produtos--cartao--titulo">Console e console XYZ</h4>
-                        <p class="produtos--cartao--valor">R$ 60,00</p>
-                        <p class="produtos--cartao--identificacao">#1111111</p>
-                    </div>
-                </div>
-            </div>
+
         </section>
     </main>
 
 
-    <footer class="rodape">
-        <div class="rodape--principal container">
-            <img src="assets/img/logo/Logo.png" alt="" class="rodape--principal--logo">
-            <div class="rodape--principal--texto">
-                <p class="rodape--principal--texto--paragrafo">
-                    <a class="rodape--principal--texto--paragrafo--link">Quem somos nós</a>
+    <footer class="rodape ">
+        <div class="rodape___principal">
+            <img src="assets/img/logo/Logo.png" alt="" class="rodape___principal__logo">
+            <div class="rodape___principal__texto">
+                <p class="rodape___principal__texto__paragrafo">
+                    <a class="rodape___principal__texto__paragrafo__link">Quem somos nós</a>
                 </p>
-                <p class="rodape--principal--texto--paragrafo">
-                    <a class="rodape--principal--texto--paragrafo--link">Política de privacidade</a>
+                <p class="rodape___principal__texto__paragrafo">
+                    <a class="rodape___principal__texto__paragrafo__link">Política de privacidade</a>
                 </p>
-                <p class="rodape--principal--texto--paragrafo">
-                    <a class="rodape--principal--texto--paragrafo--link">Programa de fidelidade</a>
+                <p class="rodape___principal__texto__paragrafo">
+                    <a class="rodape___principal__texto__paragrafo__link">Programa de fidelidade</a>
                 </p>
-                <p class="rodape--principal--texto--paragrafo">
-                    <a class="rodape--principal--texto--paragrafo--link">Nossas lojas</a>
+                <p class="rodape___principal__texto__paragrafo">
+                    <a class="rodape___principal__texto__paragrafo__link">Nossas lojas</a>
                 </p>
-                <p class="rodape--principal--texto--paragrafo">
-                    <a class="rodape--principal--texto--paragrafo--link">Quero ser franqueado</a>
+                <p class="rodape___principal__texto__paragrafo">
+                    <a class="rodape___principal__texto__paragrafo__link">Quero ser franqueado</a>
                 </p>
-                <p class="rodape--principal--texto--paragrafo">
-                    <a class="rodape--principal--texto--paragrafo--link">Anuncie aqui</a>
+                <p class="rodape___principal__texto__paragrafo">
+                    <a class="rodape___principal__texto__paragrafo__link">Anuncie aqui</a>
                 </p>
             </div>
-            <div class="rodape--principal--fale-conosco">
-                <h4 class="rodape--principal--fale-conosco--titulo">Fale conosco</h4>
-                <input type="text" class="rodape--principal--fale-conosco--input-nome">
-                <input type="text" class="rodape--principal--fale-conosco--input-mensagem">
-                <button class="botao botao-secundario--mobile rodape--botao">Enviar mensagem</button>
-
-            </div>
+            <form class="rodape___principal__fale-conosco">
+                <h4 class="rodape___principal__fale-conosco__titulo">Fale conosco</h4>
+                <div class="rodape___principal__fale-conosco__nome">
+                    <label for="rodape___principal__fale-conosco__nome">Nome</label>
+                    <input type="text" name="rodape___principal__fale-conosco__nome" Id="rodape___principal__fale-conosco__nome">
+                </div class="rodape___principal__fale-conosco__mensagem">
+                <div class="rodape___principal__fale-conosco__mensagem">
+                    <textarea name="rodape___principal__fale-conosco__mensagem" id="rodape___principal__fale-conosco__mensagem" placeholder="Escreva aqui sua mensagem" cols="30" rows="10"></textarea>    
+                </div>
+                <button class="botao botao--borda-azul rodape__botao">Enviar mensagem</button>
+            </form>
         </div>
-        <div class="rodape-final">
+        <div class="rodape___final">
             Desenvolvido por Mateus Henrique de Oliveira <br>
             2022
         </div>
-    </footer>
+    </footer>    
 </body>
 </html>

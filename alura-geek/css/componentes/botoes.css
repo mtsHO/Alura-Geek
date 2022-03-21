@@ -1,0 +1,116 @@
+.botao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+
+    padding: 12px 16px;
+
+    border: none;
+    box-sizing: border-box;
+}
+
+.botao__borda-azul {
+    border: 1px solid var(--azul-100);
+    
+}
+
+.botao__fundo-azul {
+    padding: 12px 14px;
+    background: var(--azul-100);
+    color: var(--branco);
+    width: 119px;
+    box-sizing: border-box;
+}
+
+.corpo___produtos__botao-adicionar-produtos {
+    background-color: var(--azul-100);
+    color: var(--branco);
+
+    font-weight: 400;
+    padding: 16px;    
+    width: 164px;
+    height: 51px;
+}
+
+@media screen and (min-width: 0) {
+    .cabecalho___botao {
+        color: var(--azul-100);
+        width: 133px;
+        height: 40px;
+        left: 151.5px;
+        top: 16px;
+    }
+
+    .cabecalho___menu-administrador__botao {
+        color: var(--azul-100);
+        background-color: var(--branco);
+
+        width: 166px;
+        height: 40px;
+
+        border: 1px solid var(--azul-100);
+    }
+
+    .corpo___adicionar-produto__botao-procurar-produto {
+        font-weight: 400;
+        color: var(--branco);
+        height: 51px;
+        padding: 16px;
+    }
+
+    .corpo___adicionar-produto__botao-adicionar-produto {
+        color: var(--branco);
+        background-color: var(--azul-100);
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+
+    .rodape__botao {
+        width: 151px;
+        background-color: var(--azul-100);
+        color: var(--branco);
+        font-weight: 400;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho___botao {
+        width: 166px;
+    }
+
+    .corpo___adicionar-produto__botao-procurar-produto {
+        width: 191px;
+        height: 51px;
+        color: var(--azul-100);
+        border: 1px solid var(--azul-100);
+    }
+
+    .corpo___adicionar-produto__botao-adicionar-produto {
+        padding: 16px 200px;
+        width: 704px;
+        height: 51px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho___menu-administrador__botao {
+        width: 181px;
+        height: 51px;
+        padding: 16px;
+    }
+
+    .corpo___adicionar-produto__botao-adicionar-produto {
+        width: 559px;
+    }
+
+    .rodape___botao {
+        width: 165px;
+    }
+}
