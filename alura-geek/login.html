@@ -29,12 +29,16 @@
     </header>
 
     <main class="conteudo">
-       <section class="login">
-           <h2 class="login--titulo">Iniciar sessão</h2>
-           <input type="text" placeholder="Escreva seu email" class="login--input--email">
-           <input type="text" placeholder="Escreva sua senha" class="login--input--senha">
-           <button class="botao botao--login">Entrar</button>
-       </section>
+       <form class="login">
+            <h2 class="login__titulo">Iniciar sessão</h2>
+            <div class="login__input">
+                <input type="email" id="login__input__email" placeholder="Escreva seu email">
+            </div>
+            <div class="login__input">
+                <input type="password" id="login__input__senha" placeholder="Escreva sua senha">
+            </div>
+            <button class="botao botao--login">Entrar</button>
+       </form>
 
     </main>
 

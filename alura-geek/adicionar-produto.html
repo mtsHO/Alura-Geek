@@ -35,13 +35,28 @@
                 <input type="text" placeholder="Adicionar uma imagem para o produto" class="adicionar-produto--input--imagem">
                 <div class="adicionar-produto--procurar-produto">
                     <p class="adicionar-produto--texto">Ou</p>
-                    <button class="botao corpo___adicionar-produto__botao-procurar-produto">Procure no seu tablet</button>
+                    <label for="corpo___adicionar-produto__botao-procurar-produto--tablet" class="corpo___adicionar-produto__botao-procurar-produto--tablet">Procure no seu tablet</label>
+                    <input type="file" name="corpo___adicionar-produto__botao-procurar-produto--tablet" id="corpo___adicionar-produto__botao-procurar-produto--tablet">
+                    <label for="corpo___adicionar-produto__botao-procurar-produto--desktop" class="corpo___adicionar-produto__botao-procurar-produto--desktop">Procure no seu computador</label>
+                    <input type="file" name="corpo___adicionar-produto__botao-procurar-produto--desktop" id="corpo___adicionar-produto__botao-procurar-produto--desktop">
                 </div>
             </div>
-            <input type="text" placeholder="Nome do produto" class="adicionar-produto--input--nome">
-            <input type="text" placeholder="Preço do produto" class="adicionar-produto--input--preco">
-            <input type="text" placeholder="Descrição do produto" class="adicionar-produto--input--descricao">
-            <button class="botao corpo___adicionar-produto__botao-adicionar-produto">Adicionar produto</button>
+           <div>
+                <div class="adicionar-produto__input">
+                    <label for="adicionar-produto__input__nome">Nome do produto</label>
+                    <input type="text" id="adicionar-produto__input__nome">
+                </div>
+                <div class="adicionar-produto__input">
+                    <label for="adicionar-produto__input__preco">Preço do produto</label>
+                    <input type="text" id="adicionar-produto__input__preco">
+                </div>
+                <div class="adicionar-produto__input__descricao">
+                    <textarea name="adicionar-produto__input__descricao" id="adicionar-produto__input__descricao" placeholder="Descrição do produto" cols="30" rows="10"></textarea>
+                </div>
+                <button class="botao corpo___adicionar-produto__botao-adicionar-produto">Adicionar produto</button>
+            
+            </div>
+
         </section>
      
     </main>

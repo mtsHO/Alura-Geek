@@ -1,7 +1,6 @@
 @media screen and (min-width: 0px) {
     .conteudo {
         background-color: var(--preto-5);
-        text-align: center;
     }
 
     .login{
@@ -12,21 +11,27 @@
         margin-bottom: 97px;
     }
 
-    .login h2.login--titulo{
+    .login h2.login__titulo{
         margin-bottom: 16px;
         font-weight: 700;
         font-size: 16px;
         color: var(--preto-100);
     }
 
-    main section input {
+    main form input {
+        display: flex;
         width: 275px;
         height: 41px;
         padding-left: 18px;
         border: none;
     }
 
-    main section input.login--input--email{
+   .login__input {
+        background-color: var(--branco);
+        margin-bottom: 16px;
+   }
+
+    main form input.login__input__email{
         margin-bottom: 16px;
     }
 
@@ -52,18 +57,18 @@
         margin-bottom: 61px;
     }
 
-    .login h2.login--titulo{
+    .login h2.login__titulo{
         margin-bottom: 16px;
         font-size: 16px;
     }
 
-    main section input {
+    main form input {
         width: 275px;
         height: 41px;
         padding-left: 12px;
     }
 
-    main section input.login--input--email{
+    main form input.login__input__email{
         margin-bottom: 16px;
     }
 
@@ -86,19 +91,19 @@
         margin-bottom: 91px;
     }
     
-    .login h2.login--titulo{
+    .login h2.login__titulo{
         margin-bottom: 25px;
         font-weight: 700;
         font-size: 18px;
     }
     
-    main section input {
+    main form input {
         width: 423px;
         height: 64px;
         padding-left: 18px;
     }
     
-    main section input.login--input--email{
+    main form input.login__input__email{
         margin-bottom: 24.65px;
     }
     
