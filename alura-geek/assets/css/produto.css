@@ -24,23 +24,24 @@
     }
 
     h2.produto__principal__titulo {
-        font-weight: 500;
-        font-size: 22px;
+        font-weight: var(--fonte-peso-leve);
+        font-size: var(--fonte-tamanho-titulo-secundario);
         color: var(--preto-100);
         padding-bottom: 8px;
     }
 
     h3.produto__principal__valor {
-        font-weight: 700px;
-        font-size: 16px;
+        font-weight: var(--fonte-peso-pesado);
+        font-size: var(--fonte-tamanho-cartao-produtos-preco);
         color: var(--preto-100);
     }
 
     p.produto__principal__texto {
-        font-weight: 400;
-        font-size: 14px;
+        font-weight: var(--fonte-peso-leve);
+        font-size: var(--fonte-tamanho-cartao-produtos-descricao);
         color: var(--preto-100);
         margin-top: 8px;
+        line-height: 19px;
     }
 
     .produtos__geral{
@@ -83,16 +84,6 @@
     }
 
     h2.produto__principal__titulo {
-        font-size: 52px;
         padding-bottom: 8px;
-    }
-
-    h3.produto__principal__valor {
-        font-size: 20px;
-    }
-
-    p.produto__principal__texto {
-        font-size: 18px;
-    }
-    
+    }    
 }

@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alura Geek | Adicionar produtos</title>
+    <title>Alura Geek | Adicionar produto</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/componentes/botoes.css">
-    <link rel="stylesheet" href="css/cabecalho.css">
-    <link rel="stylesheet" href="css/produto.css">
-    <link rel="stylesheet" href="css/produtos.css">
-    <link rel="stylesheet" href="css/rodape.css">
-    <link rel="stylesheet" href="css/adicionar-produto.css">
+    <link rel="stylesheet" href="assets/css/base/_reset.css">
+    <link rel="stylesheet" href="assets/css/base/_variaveis.css">
+    <link rel="stylesheet" href="assets/css/base/base.css">
+    <link rel="stylesheet" href="assets/css/componentes/botoes.css">
+    <link rel="stylesheet" href="assets/css/componentes/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/componentes/inputs.css">
+    <link rel="stylesheet" href="assets/css/componentes/rodape.css">
+    <link rel="stylesheet" href="assets/css/componentes/secao-produtos.css">
+    <link rel="stylesheet" href="assets/css/adicionar-produto.css">
 
 </head>
 <body class="corpo">
@@ -24,7 +24,7 @@
                 <input type="text" placeholder="O que deseja encontrar?" class="cabecalho__pesquisar__input"> 
                 <nav><img src="assets/img/icone/icone--lupa.png" alt="Ícone pesquisar" class="cabecalho__pesquisar__icone"></nav>
             </div>
-            <a href="login.html"><button class="botao cabecalho___menu-administrador__botao">Menu administrador</button></a>
+            <a href="login.html"><button class="botao botao__borda-azul botao__cabecalho botao__cabecalho--pagina-adicionar-produto">Menu administrador</button></a>
             <nav><img src="assets/img/icone/icone--lupa--mobile.png" alt="Ícone pesquisar" class="cabecalho__pesquisar__icone__mobile"></nav>
     </header>
 
@@ -53,7 +53,7 @@
                 <div class="adicionar-produto__input__descricao">
                     <textarea name="adicionar-produto__input__descricao" id="adicionar-produto__input__descricao" placeholder="Descrição do produto" cols="30" rows="10"></textarea>
                 </div>
-                <button class="botao corpo___adicionar-produto__botao-adicionar-produto">Adicionar produto</button>
+                <button class="botao botao__fundo-azul botao__adicionar-produto--pag-adicionar-produto">Adicionar produto</button>
             
             </div>
 
@@ -86,15 +86,18 @@
                 </p>
             </div>
             <form class="rodape___principal__fale-conosco">
-                <h4 class="rodape___principal__fale-conosco__titulo">Fale conosco</h4>
-                <div class="rodape___principal__fale-conosco__nome">
-                    <label for="rodape___principal__fale-conosco__nome">Nome</label>
-                    <input type="text" name="rodape___principal__fale-conosco__nome" Id="rodape___principal__fale-conosco__nome">
-                </div class="rodape___principal__fale-conosco__mensagem">
-                <div class="rodape___principal__fale-conosco__mensagem">
-                    <textarea name="rodape___principal__fale-conosco__mensagem" id="rodape___principal__fale-conosco__mensagem" placeholder="Escreva aqui sua mensagem" cols="30" rows="10"></textarea>    
-                </div>
-                <button class="botao botao--borda-azul rodape__botao">Enviar mensagem</button>
+                <fieldset>
+                    <legend class="rodape___principal__fale-conosco__titulo">Fale conosco</legend>
+                    <div class="input-container">
+                        <input type="text" name="rodape___principal__fale-conosco__nome" id="rodape___principal__fale-conosco__nome">
+                        <label for="input-label">Nome</label>
+                        <span class="input-mensagem-erro">Este campo não está válido></span>
+                    </div class="rodape___principal__fale-conosco__mensagem">
+                    <div class="rodape___principal__fale-conosco__mensagem">
+                        <textarea name="rodape___principal__fale-conosco__mensagem" id="rodape___principal__fale-conosco__mensagem" placeholder="Escreva aqui sua mensagem" cols="30" rows="10"></textarea>    
+                    </div>
+                </fieldset>
+                <button class="botao botao__fundo-azul botao__rodape">Enviar mensagem</button>
             </form>
         </div>
         <div class="rodape___final">

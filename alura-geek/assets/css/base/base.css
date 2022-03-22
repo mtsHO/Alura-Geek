@@ -1,24 +1,8 @@
-:root {
-    --azul-100: #2A7AE4;
-    --azul-80: #5595E9;
-    --azul-20: #D4E4FA;
-    --azul-10: #EAF2FD;
-    --preto-100: #464646;
-    --preto-50: #A2A2A2;
-    --preto-10: #E5E5E5;
-    --preto-5: #F5F5F5;
-    --branco: #FFFFFF;
-
-    font-family: 'Raleway', sans-serif;
-}
-
-html {
-    width: 100vw;
+body {
+    font-family: var(--fonte-familia-corpo);
 }
 
 .corpo {
-    font-family: 'Raleway', sans-serif;
-
     display: grid;
     grid-template-areas:
         "cabecalho"
@@ -44,17 +28,28 @@ html {
     padding: 16px;
 }
 
+.flex {
+    display: flex;
+}
+
+.flex--centro {
+    align-items: center;
+    justify-content: center;
+}
+
+.flex--coluna {
+    flex-direction: column;
+}
+
 @media scren and (min-width:768px) {
     .container {
         padding: 32px;
     }
 }
 
-
 @media screen and (min-width: 1024px) {
     .container {
-        padding-left:  152px;
-        padding-right: 152px;
+        padding: 32px 152px;
     }
 }
 
