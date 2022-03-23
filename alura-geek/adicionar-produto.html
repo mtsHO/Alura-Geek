@@ -61,49 +61,49 @@
      
     </main>
 
-
     <footer class="rodape ">
-        <div class="rodape___principal">
+        <div class="rodape___principal container flex flex--coluna">
             <img src="assets/img/logo/Logo.png" alt="" class="rodape___principal__logo">
-            <div class="rodape___principal__texto">
-                <p class="rodape___principal__texto__paragrafo">
-                    <a class="rodape___principal__texto__paragrafo__link">Quem somos nós</a>
+            <div class="rodape___principal__itens">
+                <p class="rodape___principal__itens-titulo">
+                    <a href="#">Quem somos nós</a>
                 </p>
-                <p class="rodape___principal__texto__paragrafo">
-                    <a class="rodape___principal__texto__paragrafo__link">Política de privacidade</a>
+                <p class="rodape___principal__itens-titulo">
+                    <a>Política de privacidade</a>
                 </p>
-                <p class="rodape___principal__texto__paragrafo">
-                    <a class="rodape___principal__texto__paragrafo__link">Programa de fidelidade</a>
+                <p class="rodape___principal__itens-titulo">
+                    <a>Programa de fidelidade</a>
                 </p>
-                <p class="rodape___principal__texto__paragrafo">
-                    <a class="rodape___principal__texto__paragrafo__link">Nossas lojas</a>
+                <p class="rodape___principal__itens-titulo">
+                    <a>Nossas lojas</a>
                 </p>
-                <p class="rodape___principal__texto__paragrafo">
-                    <a class="rodape___principal__texto__paragrafo__link">Quero ser franqueado</a>
+                <p class="rodape___principal__itens-titulo">
+                    <a>Quero ser franqueado</a>
                 </p>
-                <p class="rodape___principal__texto__paragrafo">
-                    <a class="rodape___principal__texto__paragrafo__link">Anuncie aqui</a>
+                <p class="rodape___principal__itens-titulo">
+                    <a>Anuncie aqui</a>
                 </p>
             </div>
-            <form class="rodape___principal__fale-conosco">
-                <fieldset>
-                    <legend class="rodape___principal__fale-conosco__titulo">Fale conosco</legend>
-                    <div class="input-container">
-                        <input type="text" name="rodape___principal__fale-conosco__nome" id="rodape___principal__fale-conosco__nome">
-                        <label for="input-label">Nome</label>
-                        <span class="input-mensagem-erro">Este campo não está válido></span>
-                    </div class="rodape___principal__fale-conosco__mensagem">
-                    <div class="rodape___principal__fale-conosco__mensagem">
-                        <textarea name="rodape___principal__fale-conosco__mensagem" id="rodape___principal__fale-conosco__mensagem" placeholder="Escreva aqui sua mensagem" cols="30" rows="10"></textarea>    
-                    </div>
-                </fieldset>
-                <button class="botao botao__fundo-azul botao__rodape">Enviar mensagem</button>
-            </form>
+            <section class="rodape___principal__fale-conosco flex flex--coluna">
+                <div class="cartao__fale-conosco">
+                    <h3 class="cartao__fale-conosco__titulo">Fale conosco</h3>
+                    <form class="flex flex--coluna">
+                        <div class="input-container">
+                            <input type="text" name="nome" id="nome" required>
+                            <label class="input-label" for="nome" >Nome</label>
+                        </div>
+                        <div class="input-container">
+                            <textarea name="mensagem" id="mensagem" placeholder="Escreva aqui sua mensagem" required></textarea>    
+                        </div>
+                        <button class="botao botao__fundo-azul botao__rodape">Enviar mensagem</button>
+                    </form>
+                </div>
+            </section>
         </div>
         <div class="rodape___final">
             Desenvolvido por Mateus Henrique de Oliveira <br>
             2022
         </div>
-    </footer>    
+    </footer>     
 </body>
 </html>

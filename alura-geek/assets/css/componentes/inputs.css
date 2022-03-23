@@ -1,5 +1,6 @@
 .input-container {
-    font-weight: var(--fonte-peso-input);
+    font-weight: var(--fonte-peso-muito-leve);
+    font-size: var(--fonte-tamanho-rodape-input);
     position: relative;
     margin-bottom: 1rem;
     display: flex;
@@ -8,23 +9,29 @@
     box-sizing: border-box;
 }
 
-.input {
+#nome {
     box-sizing: border-box;
     border-bottom: none;
     padding: 1.375rem 0.5rem 0.5rem;
-    height: 3.25rem;
+    height: 56px;
     width: 100%;
+    border-radius: 5px;
+}
+
+.input:focus {
+    outline: none;
 }
 
 .input-label {
     position: absolute;
-    top: 1.375rem;
+    top: 0.5rem;
     left: 0.5rem;
-    font-size: 16px;
-
-    transition: all .25s;
+    color: var(--preto-50);
 }
 
-.input-mensagem-erro {
-    display: none;
+#mensagem {
+    height: 82px;
+    box-sizing: border-box;
+    padding: 1.375rem 0.5rem 0.5rem;
+    border-radius: 5px;
 }
