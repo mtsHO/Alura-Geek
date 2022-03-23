@@ -10,12 +10,16 @@
 }
 
 #nome {
-    box-sizing: border-box;
-    border-bottom: none;
     padding: 1.375rem 0.5rem 0.5rem;
     height: 56px;
     width: 100%;
+}
+
+.input-modelo {
+    box-sizing: border-box;
+    border-bottom: none;
     border-radius: 5px;
+    padding: 0.5rem;
 }
 
 .input:focus {
@@ -31,7 +35,5 @@
 
 #mensagem {
     height: 82px;
-    box-sizing: border-box;
     padding: 1.375rem 0.5rem 0.5rem;
-    border-radius: 5px;
 }

@@ -63,9 +63,9 @@
         display: grid;
         padding: 32px;
         grid-template-columns: 40% 60%;
-        grid-template-rows: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
         background-color: var(--azul-10);
         height: 365px;
+        box-sizing: border-box;
     }
 
     .rodape___principal__logo {
@@ -73,7 +73,7 @@
     }
 
     .rodape___principal__itens {
-        grid-row: 2 / 6;
+        grid-row: 2 / 4;
         text-align: left;
         padding-left: 8px;
         margin-top: 0;
@@ -81,7 +81,7 @@
 
     .rodape___principal__fale-conosco {
         display: grid;
-        grid-row: 1 / 6;
+        grid-row: 1 / 4;
     }
 }
 

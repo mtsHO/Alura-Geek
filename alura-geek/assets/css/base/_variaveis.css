@@ -28,6 +28,7 @@
     --fonte-tamanho-produto-principal-descicao: 14px;
     --fonte-tamanho-rodape-itens: 16px;
     --fonte-tamanho-rodape-input: 12px;
+    --fonte-tamanho-cartao-login-titulo: 16px;
 
     --altura-linha-botao: 16.44px;
 
@@ -52,4 +53,5 @@
 
         --fonte-tamanho-cartao-produtos-preco: 20px;
         --fonte-tamanho-cartao-produtos-descricao: 18px;
+        --fonte-tamanho-cartao-login-titulo: 18px;
 }
