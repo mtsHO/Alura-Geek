@@ -14,3 +14,31 @@ function mostraBotao() {
         document.getElementById("mostra-botao-desktop").classList.remove("invisivel");
     }
 }
+
+const form = document.getElementById('adicionarProduto');
+const produto = JSON.parse(localStorage.getItem("produto")) || [];
+
+form.addEventListener("submit", (evento) => {
+    evento.preventDefault();
+
+    const imagem = evento.target.elements['adicionar-imagem-produto'];
+    const nome = evento.target.elements['nome-produto'];
+    const preco = evento.target.elements['preco-produto'];
+    const descricao = evento.target.elements['descricao-produto'];
+
+    const novoProduto = {
+        "imagem": imagem.value,
+        "nome": nome.value,
+        "preco": preco.value,
+        "descricao": descricao.value
+    }
+
+    produto.push(novoProduto);
+
+    localStorage.setItem("produto", JSON.stringify(produto));
+    
+    imagem.value = "";
+    nome.value = "";
+    preco.value = "";
+    descricao.value = "";
+});
