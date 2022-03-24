@@ -42,6 +42,10 @@ body {
     flex-direction: column;
 }
 
+.invisivel {
+    display: none;
+}
+
 @media scren and (min-width:768px) {
     .container {
         padding: 32px;

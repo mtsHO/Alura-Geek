@@ -36,14 +36,6 @@
         color: var(--preto-100);
         margin-bottom: 16px;
     }
-
-    form input, form textarea{
-        outline: unset;
-    }
-
-    form textarea {
-        resize: none;
-    }
     
     .rodape___final {
         grid-area: rodape-final;
@@ -101,5 +93,4 @@
         grid-column: 2 / 3;
         grid-row: 1 / 7;
     }
-
 }

@@ -29,34 +29,46 @@
     </header>
 
     <main class="conteudo">
-        <section class="adicionar-produto container">
-            <h2 class="adicionar-produto--titulo">Adicionar novo produto</h2>
-            <div class="adicionar-produto--secao-alternativa">
-                <input type="text" placeholder="Adicionar uma imagem para o produto" class="adicionar-produto--input--imagem">
-                <div class="adicionar-produto--procurar-produto">
-                    <p class="adicionar-produto--texto">Ou</p>
-                    <label for="corpo___adicionar-produto__botao-procurar-produto--tablet" class="corpo___adicionar-produto__botao-procurar-produto--tablet">Procure no seu tablet</label>
-                    <input type="file" name="corpo___adicionar-produto__botao-procurar-produto--tablet" id="corpo___adicionar-produto__botao-procurar-produto--tablet">
-                    <label for="corpo___adicionar-produto__botao-procurar-produto--desktop" class="corpo___adicionar-produto__botao-procurar-produto--desktop">Procure no seu computador</label>
-                    <input type="file" name="corpo___adicionar-produto__botao-procurar-produto--desktop" id="corpo___adicionar-produto__botao-procurar-produto--desktop">
-                </div>
+        <section class="cartao__adicionar-produto container">
+            <div class="flex flex--coluna">
+                <h2 class="cartao__adicionar-produto__titulo">Adicionar novo produto</h2>
+                <form class="flex flex--coluna">
+                    <div class="cartao__adicionar-imagem-produto">
+                        <label for="adicionar-imagem-produto" class="adicionar-imagem-produto-label flex flex--coluna flex--centro">Adicionar uma imagem para o produto</label>
+                        <input type="file" name="adicionar-imagem-produto" id="adicionar-imagem-produto" class="invisivel">
+                        <div class="adicionar-imagem-produto-variacao flex invisivel">
+                            <p class="adicionar-imagem-produto-texto flex flex--coluna flex--centro">Ou</p>
+                            <label for="botao__adicionar-imagem-produto-tablet" class="flex flex--coluna flex--centro botao__adicionar-imagem-produto">
+                                Procure no seu tablet
+                            </label>
+                            <input type="file" name="botao__adicionar-imagem-produto-tablet" id="botao__adicionar-imagem-produto-tablet" class="invisivel">
+                        </div>
+                        <div class="adicionar-imagem-produto-variacao flex invisivel">
+                            <p class="adicionar-imagem-produto-texto flex flex--coluna flex--centro">Ou</p>
+                            <label for="botao__adicionar-imagem-produto-desktop" class="flex flex--coluna flex--centro botao__adicionar-imagem-produto">
+                                Procure no seu computador
+                            </label>
+                            <input type="file" name="botao__adicionar-imagem-produto-desktop" id="botao__adicionar-imagem-produto-desktop" class="invisivel">
+                        </div>
+                    </div>
+                </form>
             </div>
-           <div>
-                <div class="adicionar-produto__input">
-                    <label for="adicionar-produto__input__nome">Nome do produto</label>
-                    <input type="text" id="adicionar-produto__input__nome">
-                </div>
-                <div class="adicionar-produto__input">
-                    <label for="adicionar-produto__input__preco">Preço do produto</label>
-                    <input type="text" id="adicionar-produto__input__preco">
-                </div>
-                <div class="adicionar-produto__input__descricao">
-                    <textarea name="adicionar-produto__input__descricao" id="adicionar-produto__input__descricao" placeholder="Descrição do produto" cols="30" rows="10"></textarea>
-                </div>
-                <button class="botao botao__fundo-azul botao__adicionar-produto--pag-adicionar-produto">Adicionar produto</button>
-            
+            <div>
+                <form class="flex flex--coluna">
+                    <div class="input-container">
+                        <label for="nome-produto" class="input-label">Nome do produto</label>
+                        <input type="text" id="nome-produto" class="input-modelo" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="preco-produto" class="input-label">Preço do produto</label>
+                        <input type="text" id="preco-produto" class="input-modelo" required>
+                    </div>
+                    <div class="input-container">
+                        <textarea name="descricao-produto" id="descricao-produto" class="input-modelo" placeholder="Descrição do produto" required></textarea>
+                    </div>
+                    <button class="botao botao__fundo-azul">Adicionar produto</button>
+                </form>
             </div>
-
         </section>
      
     </main>

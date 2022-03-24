@@ -63,8 +63,21 @@
         width: 166px;
     }
 
+    button.botao__cabecalho--pagina-adicionar-produto {
+        width: 181px;
+    }
+
     button.botao__adicionar-produto--pag-adicionar-produto {
         width: 704px;
+    }
+
+    .botao__adicionar-imagem-produto {
+        height: 51px;
+        width: 191px;
+        border: 1px solid var(--azul-100);
+        color: var(--azul-100); 
+        font-weight: var(--fonte-peso-botao);
+        font-size: var(--fonte-tamanho-botao);
     }
 
 }
@@ -77,6 +90,10 @@
     button.botao_banner {
         width: 131px;
         height: 40px;
+    }
+
+    .botao__adicionar-imagem-produto {
+        width: 239px;
     }
 
     button.botao__adicionar-produto--pag-adicionar-produto {

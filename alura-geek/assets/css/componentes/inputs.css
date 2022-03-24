@@ -9,6 +9,15 @@
     box-sizing: border-box;
 }
 
+input, textarea{
+    outline: unset;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
 #nome {
     padding: 1.375rem 0.5rem 0.5rem;
     height: 56px;
@@ -18,7 +27,6 @@
 .input-modelo {
     box-sizing: border-box;
     border-bottom: none;
-    border-radius: 5px;
     padding: 0.5rem;
 }
 
@@ -36,4 +44,18 @@
 #mensagem {
     height: 82px;
     padding: 1.375rem 0.5rem 0.5rem;
+}
+
+#nome-produto {
+    height: 56px;
+    padding: 1.375rem 0.5rem 0.5rem;
+}
+
+#preco-produto {
+    height: 56px;
+    padding: 1.375rem 0.5rem 0.5rem;
+}
+
+#descricao-produto {
+    height: 82px;
 }
