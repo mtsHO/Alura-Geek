@@ -72,14 +72,13 @@
     }
 
     .botao__adicionar-imagem-produto {
-        height: 51px;
-        width: 191px;
         border: 1px solid var(--azul-100);
-        color: var(--azul-100); 
-        font-weight: var(--fonte-peso-botao);
+        color: var(--azul-100);
         font-size: var(--fonte-tamanho-botao);
+        height: 51px;
+        font-weight: var(--fonte-peso-botao);
+        width: 191px;       
     }
-
 }
 
 @media screen and (min-width: 1024px) {
@@ -88,8 +87,8 @@
     }
 
     button.botao_banner {
-        width: 131px;
         height: 40px;
+        width: 131px;
     }
 
     .botao__adicionar-imagem-produto {
@@ -101,14 +100,13 @@
     }
 
     button.botao__login{
-        width: 423px;
         height: 62px;
         padding: 22px;
+        width: 423px;        
     }
 
-
     button.botao__rodape {
-        width: 165px;
         height: 41px;
+        width: 165px;
     }
 }

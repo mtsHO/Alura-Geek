@@ -2,10 +2,10 @@
     background-color: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(.jpg);
     background-image: url('../../img/banner-home.png');
     background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
-    height: 192px;
+    background-size: cover;
     box-sizing: border-box;
+    height: 192px;
 }
 
 .banner__titulo {
@@ -19,15 +19,15 @@
     color: var(--branco);
     font-size: var(--fonte-tamanho-subtitulo);
     font-weight: var(--fonte-peso-medio);
-    margin-top: 8px;
     margin-bottom: 8px;
+    margin-top: 8px;
 }
 
 @media screen and (min-width: 768px) {
    
     .banner {
-        height: 352px;
         background-size: auto;
+        height: 352px;
     }
 
     .banner__titulo {

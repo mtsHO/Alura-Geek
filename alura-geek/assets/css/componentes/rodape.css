@@ -8,18 +8,18 @@
    }
 
    .rodape___principal {
-        grid-area: rodape-principal;
         background-color: var(--azul-10);
+        grid-area: rodape-principal;
     }
 
     .rodape___principal__logo {
-        width: 176px;
         margin-left: calc(50% - 88px);
+        width: 176px;
     }
 
     .rodape___principal__itens {
-        text-align: center;
         margin-top: 16px;
+        text-align: center;
     }
 
     .rodape___principal__itens-titulo {
@@ -31,33 +31,32 @@
     }
 
     h3.cartao__fale-conosco__titulo {
-        font-weight: var(--fonte-peso-pesado);
-        font-size: var(--fonte-tamanho-rodape-itens);
         color: var(--preto-100);
+        font-size: var(--fonte-tamanho-rodape-itens);
+        font-weight: var(--fonte-peso-pesado);
         margin-bottom: 16px;
     }
     
     .rodape___final {
-        grid-area: rodape-final;
         background-color: var(--branco);
-        font-weight: 500;
-        font-size: 16px;
-        text-align: center;
-        height: 102px;
-        padding-top: 32px;
-        padding-bottom: 32px;
         box-sizing: border-box;
+        font-size: 16px;
+        font-weight: 500;
+        grid-area: rodape-final;
+        height: 102px;
+        padding-bottom: 32px;
+        padding-top: 32px;
+        text-align: center;
     }
 }
 
 @media screen and (min-width: 768px) {
     .rodape___principal {
-        display: grid;
-        padding: 32px;
-        grid-template-columns: 40% 60%;
-        background-color: var(--azul-10);
-        height: 365px;
         box-sizing: border-box;
+        display: grid;
+        grid-template-columns: 40% 60%;
+        height: 365px;
+        padding: 32px;
     }
 
     .rodape___principal__logo {
@@ -66,9 +65,9 @@
 
     .rodape___principal__itens {
         grid-row: 2 / 4;
-        text-align: left;
-        padding-left: 8px;
         margin-top: 0;
+        padding-left: 8px;
+        text-align: left;        
     }
 
     .rodape___principal__fale-conosco {
@@ -79,9 +78,9 @@
 
 @media screen and (min-width: 1024px){
     .rodape___principal {
-        padding: 64px 152px;
         grid-template-columns: 30% 30% 40%;
         grid-template-rows: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+        padding: 64px 152px;
     }
 
     .rodape___principal__logo {

@@ -8,9 +8,8 @@
 
     .cabecalho__logo {
         display: flex;
-        width: 100px;
-
         margin: 22px 16px;
+        width: 100px;        
     }
 
     .cabecalho__pesquisar {
@@ -23,8 +22,8 @@
 
     .cabecalho__pesquisar__icone__mobile {
         margin-right: 19px;
-        width: 17px;
         padding-top: 4px;
+        width: 17px;
     }
 }
 
@@ -39,22 +38,22 @@
     }
 
     .cabecalho__pesquisar__input {
-        display: flex;
-        width: 272px;
-        height: 40px;
-        box-sizing: border-box;
+        background-color: var(--preto-5);
+        border: none;
         border-radius: 20px;
+        box-sizing: border-box;
+        display: flex;
+        height: 40px;
+        padding-bottom: 12px;
         padding-left: 0;
         padding-top: 12px;
-        padding-bottom: 12px;
-        background-color: var(--preto-5);
-        border: none;;
+        width: 272px;
     }
 
     .cabecalho__pesquisar__icone {
-        position: relative;
-        padding-top: 11px;
         left: -30px;
+        padding-top: 11px;
+        position: relative;        
     }
 
     .cabecalho__pesquisar__icone__mobile {
@@ -64,12 +63,12 @@
 
 @media screen and (min-width: 1024px) {
     .cabecalho__logo {
-        width: 176px;
         margin-left: 152px;
+        width: 176px;
     }
 
     .cabecalho__pesquisar__input {
-        width: 393px;
         padding-left: 16px;
+        width: 393px;
     }
 }

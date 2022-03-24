@@ -4,46 +4,44 @@
     }
 
     .cartao__login {
-        margin-top: 97px;
         margin-bottom: 97px;
+        margin-top: 97px;
     }
 
     .cartao__login__titulo {
-        margin-bottom: 16px;
-        font-weight: var(--fonte-peso-pesado);
-        font-size: var(--fonte-tamanho-cartao-login-titulo);
         color: var(--preto-100);
+        font-size: var(--fonte-tamanho-cartao-login-titulo);
+        font-weight: var(--fonte-peso-pesado);
+        margin-bottom: 16px;
     }
 
     #email {
-        width: 275px;
         height: 41px;
+        width: 275px;
     }
 
     #senha {
-        width: 275px;
         height: 41px;
+        width: 275px;
     }
-}
-    
 }
 
 @media screen and (min-width: 768px) {
     main form input {
-        width: 275px;
         height: 41px;
         padding-left: 12px;
+        width: 275px;
     }
 }
 
 @media screen and (min-width: 1024px) {    
     #email {
-        width: 423px;
         height: 63px;
+        width: 423px;
     }
 
     #senha {
-        width: 423px;
         height: 63px;
+        width: 423px;
     }
 }
