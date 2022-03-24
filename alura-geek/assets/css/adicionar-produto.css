@@ -50,6 +50,11 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .conteudo {
+        display: flex;
+        justify-content: center;    
+    }
+    
     .cartao__adicionar-imagem-produto {
         display: flex;
         align-items: center;
